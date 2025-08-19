@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="">
+    <header class="bg-white-400 shadow-md">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center"> <a href="#"
+                class="text-lg font-bold text-black-600">Faiz.store</a> <input type="checkbox" id="menu-toggle"
+                class="hidden peer">
+            <label for="menu-toggle" class="md:hidden cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                </svg>
+            </label>
+
+            <div class="hidden peer-checked:flex peer-checked:flex-col
+            peer-checked:absolute peer-checked:top-16 peer-checked:left-0
+            peer-checked:w-full peer-checked:bg-white peer-checked:shadow-md
+            md:flex md:items-center md:space-x-8 md:relative md:top-auto
+            md:top-left-auto md:w-auto md:bg-transparent md:shadow-none">
+                <a href="#"
+                    class="blok py-2 px-4 text-black-600 hover:bg-black-100 md:hover:bg-transparent md:hover:text-sky-500">Home</a>
+                <a href="#"
+                    class="blok py-2 px-4 text-black-600 hover:bg-black-100 md:hover:bg-transparent md:hover:text-sky-500">Produk</a>
+                <a href="#"
+                    class="blok py-2 px-4 text-black-600 hover:bg-black-100 md:hover:bg-transparent md:hover:text-sky-500">Tentang</a>
+                <a href="#"
+                    class="blok py-2 px-4 text-black-600 hover:bg-black-100 md:hover:bg-transparent md:hover:text-sky-500">Kontak</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="bg-yellow-400 py-20 ">
+        <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div class="text-center md:text-left">
+                <h1 class="text-4xl md:text-5xl font-extrabold text-black-800 leading-tight">Temukan produk terbaik
+                    pilihan anda</h1>
+                <p class="mt-4 text-lg text-gray-600">Kami menyediakan berbagai produk berkualitas untuk memenuhi kebutuhan Anda.</p>
+                <a href="#"
+                    class="mt-8 inline-block bg-gray-500 text-white font-bold text-lg rounded-lg px-8 py-3 hover:bg-sky-600 transition duration-700">Belanja
+                    Sekarang</a>
+            </div>
+
+            <div>
+                <img src="assets/png-transparent-social-media-marketing-brand-awareness-social-media-company-social-media-internet.png"
+                    class="rounded-lg shadow-xl w-full" alt="">
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-white-400 text-black-300">
+        <div class="container mx-auto px-6 py-12">
+            <div class="grid grid=cols-2 md:grid-cols-4 gap-8">
+            </div>
+
+            <h4 class="font-bold text-lg text-black mb-2">Faiz strore</h4>
+            <p class="text-sm mb-2">Menyediakan solusi, inovatif untuk membantu bisnis anda tembuh dan berkembang</p>
+
+            <div>
+                <h4 class="font-bold text-lg text-black mb-2">Solusi</h4>
+                <a href="#" class="block mt-2 text-sm hover:text-gray-600">Marketing</a>
+                <a href="#" class="block mt-2 text-sm hover:text-gray-600">Analitik</a>
+                <a href="#" class="block mt-2 text-sm hover:text-gray-600 mb-3">Laporan</a>
+            </div>
+            <div>
+                <h4 class="font-bold text-lg text-black mb-2">Legal</h4>
+                <a href="#" class="block mt-2 text-sm hover:text-gray-600">Kebijakan</a>
+                <a href="#" class="block mt-2 text-sm hover:text-gray-600">Syarat & Ketentuan</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
